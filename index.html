@@ -175,10 +175,6 @@
 			// url of data source
 			let housing_url = 'http://housing.gatech.edu/rooms/FreeRooms.json?'
 
-			// public cors proxy
-			let cors_proxy_url = 'https://cors-anywhere.herokuapp.com/'
-			// (pls no spam or it will get yeeted)
-
 			getRequest('/data/F21-S22/latest/latest.json', function (resp) {
 				console.log(resp);
 				let json = resp;
@@ -187,8 +183,8 @@
 					console.log('json error');
 				} else {
 					console.log('parsing data');
-					parseData(json.data);
-					//parseData(json);
+					//parseData(json.data);
+					parseData(json);
 				}
 			});
 
