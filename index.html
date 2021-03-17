@@ -179,7 +179,7 @@
 			let cors_proxy_url = 'https://cors-anywhere.herokuapp.com/'
 			// (pls no spam or it will get yeeted)
 
-			getRequest('https://raw.githubusercontent.com/AlexanderPuckhaber/gthousing-data/master/data/F21-S22/latest/latest.json', function (resp) {
+			getRequest('/data/F21-S22/latest/latest.json', function (resp) {
 				console.log(resp);
 				let json = resp;
 				if (json.error) {
