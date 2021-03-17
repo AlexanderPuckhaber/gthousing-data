@@ -175,7 +175,7 @@
 			// url of data source
 			let housing_url = 'http://housing.gatech.edu/rooms/FreeRooms.json?'
 
-			getRequest('/data/F21-S22/latest/latest.json', function (resp) {
+			getRequest('data/F21-S22/latest/latest.json', function (resp) {
 				console.log(resp);
 				let json = resp;
 				if (json.error) {
