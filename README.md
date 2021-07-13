@@ -11,4 +11,9 @@ I just followed this tutorial: [https://simonwillison.net/2020/Oct/9/git-scrapin
 
 Data goes to the [/data/F21-S22/](/data/F21-S22/) folder. The timestamps are unix timestamps; see the commit messages for the timezone.
 
-Also, the latest json file is put here: [/data/F21-S22/latest/latest.json](/data/F21-S22/latest/latest.json)
+Also, the latest json file is put here: [/data/F21-S22/latest/latest.json](/data/F21-S22/latest/latest.json))
+
+#### Animated Visualization
+See this one from last year: [https://github.com/AlexanderPuckhaber/gthousing](https://github.com/AlexanderPuckhaber/gthousing)
+
+If you want to run that code this year, you will need to modify it slightly because [gt housing changed their json format a little](https://github.com/AlexanderPuckhaber/gthousing-data.github.io/commit/f2831c9db7b78a2ae3acddc82d3d4884d61efe37#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051R257)
