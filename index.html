@@ -153,16 +153,16 @@
 
 			function getRequest(url, callback) {
 				fetch(url, {
-					method: 'GET', // *GET, POST, PUT, DELETE, etc.
-					mode: 'cors', // no-cors, *cors, same-origin
-					cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-					credentials: 'same-origin', // include, *same-origin, omit
-					headers: {
-						'Content-Type': 'application/json'
-						// 'Content-Type': 'application/x-www-form-urlencoded',
-					},
-					redirect: 'follow', // manual, *follow, error
-					referrerPolicy: 'no-referrer' // no-referrer, *client
+					// method: 'GET', // *GET, POST, PUT, DELETE, etc.
+					// mode: 'cors', // no-cors, *cors, same-origin
+					// cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+					// credentials: 'same-origin', // include, *same-origin, omit
+					// headers: {
+					// 	'Content-Type': 'application/json'
+					// 	// 'Content-Type': 'application/x-www-form-urlencoded',
+					// },
+					// redirect: 'follow', // manual, *follow, error
+					// referrerPolicy: 'no-referrer' // no-referrer, *client
 				})
 					.then(res => res.json())
 					.then(data => callback(data))
@@ -253,7 +253,19 @@
 
 					let a = readLetters(entry.RoomNumber);
 					let cap = parseInt(entry.Capacity.substring(0, 1));
-					if (isNaN(cap)) cap = -1;
+					if (isNaN(cap)) {
+						// gt housing why u change capacity format?
+						switch(entry.Capacity) {
+							case 'Single': cap = 1; break;
+							case 'Double': cap = 2; break;
+							case 'Triple': cap = 3; break;
+							case 'Quad': cap = 4; break;
+							// no idea what it would be for 5,6,7
+							default: cap = -1;
+						}
+					}
+
+					
 
 					if (!(cap in bld.rooms)) {
 						bld.rooms[cap] = {};
