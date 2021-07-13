@@ -209,7 +209,7 @@
 
 			let settings = {
 				gender: 'Male',
-				thresh: 4
+				thresh: 2
 			};
 			let parsedData = null;
 
@@ -380,6 +380,9 @@
 				}
 
 				let roomNums = Object.keys(roomObj);
+
+				let row = tbl.insertRow(-1);
+				row.insertCell(-1).innerHTML = '<b>Rooms below do not match searth criteria:</b>';
 
 				for (let i = 0; i < roomNums.length; i++) {
 					if (!validNums.includes(roomNums[i])) {
