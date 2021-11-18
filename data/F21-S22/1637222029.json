@@ -1,0 +1,23 @@
+[
+{"BuildingID":34,"BuildingName":"Center Street South","RoomNumber":"CSS008D","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":35,"BuildingName":"Crecine","RoomNumber":"CRE209A","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":35,"BuildingName":"Crecine","RoomNumber":"CRE211A","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":35,"BuildingName":"Crecine","RoomNumber":"CRE405B","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":23,"BuildingName":"Graduate Living Center","RoomNumber":"GLC218B","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":23,"BuildingName":"Graduate Living Center","RoomNumber":"GLC218D","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":23,"BuildingName":"Graduate Living Center","RoomNumber":"GLC320A","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":23,"BuildingName":"Graduate Living Center","RoomNumber":"GLC402A","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":23,"BuildingName":"Graduate Living Center","RoomNumber":"GLC402D","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":14,"BuildingName":"North Avenue East","RoomNumber":"NAE1209E","Gender":"Female","Capacity":"6 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":16,"BuildingName":"North Avenue South","RoomNumber":"NAS0608C","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":25,"BuildingName":"Tenth and Home B","RoomNumber":"THB510A","Gender":"Female","Capacity":"2 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":25,"BuildingName":"Tenth and Home B","RoomNumber":"THB706B","Gender":"Female","Capacity":"2 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":27,"BuildingName":"Tenth and Home D","RoomNumber":"THD310A","Gender":"Female","Capacity":"2 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":28,"BuildingName":"Tenth and Home E","RoomNumber":"THE407A","Gender":"Male","Capacity":"2 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":29,"BuildingName":"Tenth and Home F","RoomNumber":"THF115B","Gender":"Male","Capacity":"2 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":29,"BuildingName":"Tenth and Home F","RoomNumber":"THF216B","Gender":"Male","Capacity":"2 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":29,"BuildingName":"Tenth and Home F","RoomNumber":"THF318B","Gender":"Male","Capacity":"2 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":29,"BuildingName":"Tenth and Home F","RoomNumber":"THF408B","Gender":"Male","Capacity":"2 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":46,"BuildingName":"Zbar (SSA)","RoomNumber":"ZBR314B","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"},
+{"BuildingID":46,"BuildingName":"Zbar (SSA)","RoomNumber":"ZBR314C","Gender":"Female","Capacity":"4 person","Term":"2022 Spring","LastUpdated":"2021-11-17 21:50:04"}
+]
